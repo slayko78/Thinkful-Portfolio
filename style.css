@@ -1,11 +1,12 @@
+/*This is a class to put something in the middle, death to left align*/
 .centered{
   text-align: center;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  height:250px;
 }
-
+/*this class is for my title*/
 .logo{
   font-family: 'Serif', monospace;
   font-size: 60px;
@@ -13,8 +14,15 @@
   text-align: center;
   letter-spacing: -3;
   margin: 0;
-  padding: 20px 0 0 0;
+  padding: 0 0 0 0;
+ 
 }
 body{
   background-color:aqua;
 }
+
+
+a:link {color:blue}
+a:visited {color:red}
+a:hover{color:teal}
+a:active{color:blueviolet}
